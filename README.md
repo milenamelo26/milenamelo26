@@ -1,6 +1,7 @@
-# Hi there, I'm Milena Melo! 👋
-### **AI-Native Technical Product Lead & Systems Architect**
-*Former CPO & MBA Professor @ USP | Orchestrating Enterprise AI Infrastructure, Zero-Trust Architectures & High-Performance Product Systems.*
+# Hi there, I'm Milena Melo 👋
+
+### **AI Solutions Architect & Domain Intelligence Designer**
+*I find the pattern behind complex business problems — and build the AI system that solves them.*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/milemelo)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:milenamelo26@gmail.com)
@@ -8,69 +9,67 @@
 
 ---
 
-## 👤 Executive & Technical Profile
+## 👤 Who I Am
 
-I operate at the intersection of **AI Systems Architecture, Production Engineering, and C-Suite Strategy**. Combining executive leadership experience as a **Chief People Officer in FinTech** with hands-on AI-augmented development, I design and deploy resilient, high-throughput enterprise systems 10x faster than traditional software cycles.
+Most people see what's happening. I see **why** it's happening — and what happens next.
 
-My work focuses on **Zero-Trust Backend-For-Frontend (BFF) patterns, automated PII governance, agentic LLM orchestration, and resilient cloud infrastructure** — bridging the gap between high-level business goals and production-ready code.
+That pattern recognition, built over years as a **Chief People Officer in FinTech** and **MBA Professor at USP**, is now my engineering foundation. I don't need a PM to translate the business problem, because I already understand it at the root. What changed is that I can now build the AI system that solves it — end to end.
 
----
-
-## 🏗️ Featured Production Repositories & Architecture Showcase
-
-### 🤖 1. [AI-Executive-Portfolio](https://github.com/milenamelo26/AI-Executive-Portfolio) — *Cognitive Talent Alignment Engine*
-* **Architecture:** Multi-agent agentic pipeline using the **ReAct pattern** (Reasoning + Action) with **Gemini 1.5 Pro** and **LLM-as-a-Judge** validation.
-* **Key Innovation:** Eliminates semantic gap between complex job descriptions and unstructured candidate profiles — evaluating strictly on documented technical merit, with zero-bias enforcement (name, gender, age excluded from scoring pipeline).
+My work sits at the intersection of **deep domain expertise, agentic system design, and production AI engineering**: translating complex organizational and operational problems into multi-agent pipelines, LLM-as-a-Judge validation frameworks, and structured AI outputs that actually work in enterprise contexts.
 
 ---
 
-### 🔄 2. [enterprise-change-management-ops](https://github.com/milenamelo26/enterprise-change-management-ops) — *Zero-Trust PMO Intelligence Framework*
-* **Architecture:** Secure backend pipeline with **Chain-of-Thought extraction** via Gemini 1.5 Flash + **Pydantic** structured compliance for guaranteed JSON output.
-* **Key Innovation:** Transforms qualitative operational records into quantified People Analytics insights — exposing resource imbalances, risk exposure, and team burnout signals that standard PMO dashboards miss.
+## 🏗️ What I Build
+
+### 🤖 [AI-Executive-Portfolio](https://github.com/milenamelo26/AI-Executive-Portfolio) — *Cognitive Talent Alignment Engine*
+
+The problem: talent evaluation is systematically biased by proxy variables — name, university pedigree, gender markers — that have nothing to do with technical capability.
+
+My solution: a multi-agent **ReAct pipeline** (Reasoning + Action) using **Gemini 1.5 Pro** that evaluates candidates strictly on documented technical merit. The engine runs web grounding, portfolio parsing, and Python code execution to cross-reference evidence — then a decoupled **LLM-as-a-Judge** layer validates alignment across technical vectors with strict mathematical weights, enforcing DEI compliance structurally, not as a policy.
+
+> *Built from 8+ years of seeing how hiring decisions actually get made — and where they break.*
 
 ---
 
-### 🛡️ 3. `nexus-ta-engine` *(coming soon)* — *AI-Native Talent Acquisition & Analytics Gateway*
-* **Architecture:** Zero-Trust BFF Pattern (Node.js / Express / TypeScript) on **GCP Cloud Run** + **Firebase Auth** (Server-side Token Revocation) + **Firestore Native**.
-* **Key Innovation:** Real-time ATS synchronization with **429/503 rate-limiting resilience**, automated 5-year PII retention & redaction pipelines, and AI-assisted candidate evaluation via Claude API with XML delimiter prompt-injection mitigations.
+### 🔄 [enterprise-change-management-ops](https://github.com/milenamelo26/enterprise-change-management-ops) — *PMO Intelligence Framework*
+
+The problem: during corporate transitions, PMO teams drown in qualitative data — Kanban logs, task records, retrospective notes — that tell you nothing useful about resource imbalances, burnout signals, or failure points.
+
+My solution: a **Chain-of-Thought extraction pipeline** using **Gemini 1.5 Flash** that ingests anonymized operational records and outputs structured **People Analytics metrics** via Pydantic-enforced JSON — deterministic, audit-ready, and pluggable into any BI layer.
+
+> *Built from the experience of having run these transitions and wishing this tool existed.*
 
 ---
 
-### ⚡ 4. `nexus-apply-gateway` *(coming soon)* — *Secure Candidate Submission & AI Evaluation Pipeline*
-* **Architecture:** Edge-Optimized Serverless Gateway + Asynchronous Agentic Evaluation Pipeline + GCP Secret Manager.
-* **Key Innovation:** Fully decoupled client-side presentation from internal data sources. Single-use JWT verification, IP hashing (SHA-256), and server-side LLM scoring recalculation to prevent prompt-injection state tampering.
-
----
-
-### 🏅 5. `nexus-team-360` *(coming soon)* — *360 Leadership & Career Self-Service Platform*
-* **Architecture:** Multi-Tenant Enterprise Microservice + Server-Side Row-Level Security (RLS) + Inter-Module OIDC Authentication.
-* **Key Innovation:** **Anti-Data-Fusion privacy protocols (K≥5)** to prevent individual re-identification across modules, dual-checkpoint 1:1 compliance engine, and asynchronous batch sync via dedicated GCP Service Accounts.
-
----
-
-## 🛠️ Systems & Technical Stack
+## 🛠️ How I Build
 
 ```text
-┌─────────────────────────────────────────────────────────────────────────────────────┐
-│                              SYSTEM ARCHITECTURE STACK                              │
-├──────────────────────┬───────────────────────────────────┬────────────────────────-┤
-│ Layer                │ Technologies                      │ Core Competencies       │
-├──────────────────────┼───────────────────────────────────┼─────────────────────────┤
-│ Frontend             │ React, Vite, TypeScript, Tailwind │ Component Isolation, DTO│
-│ Backend / BFF        │ Node.js, Express, TypeScript      │ Zero-Trust, RLS, Limits │
-│ AI & Agentic         │ Claude API, Gemini SDK, ReAct     │ PromptOps, LLM-as-Judge │
-│ Cloud & Security     │ GCP Cloud Run, Cloud Functions    │ Secret Manager, OIDC    │
-│ Database & Infra     │ Firestore, Docker, GitHub Actions │ PII Purge, E2E Emulators│
-└──────────────────────┴───────────────────────────────────┴─────────────────────────┘
+Domain Problem → Root Cause Diagnosis → AI System Design → Production Pipeline
+
+Tools I reach for:
+├── AI Orchestration   Gemini SDK · Claude API · ReAct Pattern · Chain-of-Thought
+├── Validation Layer   LLM-as-a-Judge · Pydantic · Structured JSON Enforcement
+├── Data Privacy       Anonymization Pipelines · PII Sanitization · DEI Guardrails
+└── Runtime            Python · Google AI Studio · GCP · Docker
 ```
 
 ---
 
-## 📊 GitHub Activity
+## 📍 What's Coming
 
-![Milena's GitHub Stats](https://github-readme-stats.vercel.app/api?username=milenamelo26&show_icons=true&theme=dark&hide_border=true&count_private=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=milenamelo26&layout=compact&theme=dark&hide_border=true)
+I'm finalizing **HR Nexus** — a suite of enterprise HR modules I designed from the ground up as an AI-native People Operations system. When published, these will be the most complete demonstration of how deep domain expertise and AI architecture combine to solve real organizational problems.
+
+Three modules in progress:
+- `nexus-ta-engine` — AI-Native Talent Acquisition & Analytics Gateway
+- `nexus-apply-gateway` — Secure Candidate Submission & Agentic Evaluation
+- `nexus-team-360` — 360 Leadership & Privacy-First Career Self-Service
 
 ---
 
-*Building enterprise-grade AI systems — one Zero-Trust commit at a time.* 🚀
+## 📊 Activity
+
+![Milena's GitHub Stats](https://github-readme-stats.vercel.app/api?username=milenamelo26&show_icons=true&theme=dark&hide_border=true&count_private=true)
+
+---
+
+*The systems that matter most are the ones built by people who truly understand the problem.* 🧩
