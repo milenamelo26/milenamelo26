@@ -1,28 +1,53 @@
 # Hi there, I'm Milena Melo! 👋
 
-## Chief People Officer & MBA Professor @ USP
-*Transforming People Operations through Advanced GenAI, Agentic Workflows & Strategic Governance.*
+### **AI-Native Technical Product Lead & Systems Architect**  
+*Former CPO & MBA Professor @ USP | Orchestrating Enterprise AI Infrastructure, Zero-Trust Architectures & High-Performance Product Systems.*
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/milemelo)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:milenamelo26@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/milenamelo26)
 
 ---
 
-## 👤 Executive Timeline & Impact
-I operate at the intersection of Advanced Generative AI, Strategic Talent Governance, and People Analytics. Currently leading organizational scale-up transformations as a **Chief People Officer in the FinTech sector** and shaping future business leaders as an **MBA Professor at USP**.
+## 👤 Executive & Technical Profile
 
-With extensive international experience building cultural frameworks across Agile Software Houses, Digital Marketplaces, and Tech Startups, I focus on engineering secure, data-driven, and unbiased agentic solutions to maximize performance and talent alignment at scale.
+I operate at the intersection of **AI Systems Architecture, Production Engineering, and C-Suite Strategy**. Combining executive leadership experience as a **Chief People Officer in FinTech** with hands-on AI-augmented development, I design and deploy resilient, high-throughput enterprise systems 10x faster than traditional software cycles.
 
----
-
-## 🚀 Featured AI Production Frameworks
-* 🤖 **[AI-Executive-Portfolio](https://github.com/milenamelo26/AI-Executive-Portfolio)**: This is my core production repository. It hosts the **Cognitive Talent Alignment Engine**, an enterprise-grade recruitment framework that leverages Gemini 1.5 Pro, the ReAct pattern, and LLM-as-a-Judge validation to match candidate profiles against highly technical vacancies with zero behavioral bias.
+My work focuses on **Zero-Trust Backend-For-Frontend (BFF) patterns, automated PII governance, agentic LLM orchestration, and resilient cloud infrastructure** — bridging the gap between high-level business goals and production-ready code.
 
 ---
 
-## 🛠️ Strategic & Tech Intersection Stack
-* **AI & Engineering Paradigms:** Gemini GenAI SDK, Prompt Engineering, Agentic Workflows (ReAct / Chain-of-Thought), LLM-as-a-Judge Calibration.
-* **HR Frameworks & People Analytics:** Competency-Based Recruitment, Performance Evaluation Calibration, Goal Strategies (OKR Methodology), Agility in HR.
+## 🏗️ Featured Production Repositories & Architecture Showcase
+
+### 🤖 1. [nexus-ta-engine](https://github.com/milenamelo26/nexus-ta-engine) — *AI-Native Talent Acquisition & Analytics Gateway*
+* **Architecture:** Zero-Trust BFF Pattern (Node.js/Express/TypeScript) deployed on **GCP Cloud Run** + **Firebase Auth** (Server-side Token Revocation) + **Firestore Native**.
+* **Key Innovation:** Real-time ATS synchronization with **429/503 rate-limiting resilience** (header `Retry-After` handling), **automated 5-year PII retention & redaction pipelines**, and AI-assisted candidate evaluation using Anthropic Claude API with strict XML delimiter prompt-injection mitigations.
 
 ---
 
-## 📬 Connect with me
-* **LinkedIn:** [linkedin.com/in/milemelo](https://www.linkedin.com/in/milemelo)
-* **Email:** milenamelo26@gmail.com
+### 🛡️ 2. [nexus-team-360](https://github.com/milenamelo26/nexus-team-360) — *360 Leadership & Career Self-Service Platform*
+* **Architecture:** Multi-Tenant Enterprise Microservice + Server-Side Row-Level Security (RLS) + Inter-Module OIDC Authentication.
+* **Key Innovation:** Implements **Anti-Data-Fusion privacy protocols ($K \ge 5$)** to prevent individual data re-identification across modules, dual-checkpoint 1:1 compliance engine, and asynchronous batch synchronization using dedicated GCP Service Accounts.
+
+---
+
+### ⚡ 3. [nexus-apply-gateway](https://github.com/milenamelo26/nexus-apply-gateway) — *Secure Candidate Submission & AI Evaluation Pipeline*
+* **Architecture:** Edge-Optimized Serverless Gateway + Asynchronous Agentic Evaluation Pipeline + GCP Secret Manager.
+* **Key Innovation:** Fully decoupled client-side presentation from internal data sources. Features single-use JWT verification, IP hashing (SHA-256), and synchronous LLM scoring recalculation on the server to prevent prompt-injection state tampering.
+
+---
+
+## 🛠️ Systems & Technical Stack
+
+```text
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│                                SYSTEM ARCHITECTURE STACK                               │
+├───────────────────┬───────────────────────────────────┬────────────────────────────────┤
+│ Layer             │ Technologies                      │ Core Competencies              │
+├───────────────────┼───────────────────────────────────┼────────────────────────────────┤
+│ Frontend          │ React, Vite, TypeScript, Tailwind │ Component Isolation, DTO Maps  │
+│ Backend / BFF     │ Node.js, Express, TypeScript      │ Zero-Trust, RLS, Rate Limiting │
+│ AI & Agentic      │ Claude API, Gemini SDK, ReAct     │ PromptOps, LLM-as-a-Judge, XAI │
+│ Cloud & Security  │ GCP Cloud Run, Cloud Functions    │ Secret Manager, WIF, OIDC Auth │
+│ Database & Infra  │ Firestore, Docker, GitHub Actions │ PII Purge Jobs, E2E Emulators  │
+└───────────────────┴───────────────────────────────────┴────────────────────────────────┘
